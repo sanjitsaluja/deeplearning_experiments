@@ -11,7 +11,14 @@ mitdeeplearning = "^0.7.5"
 torch = "^2.7.0"
 torchvision = "^0.22.0"
 torchaudio = "^2.7.0"
+tensorflow = "^2.19.0"
+tensorflow-datasets = "^4.9.9"
+matplotlib = "^3.10.3"
+opencv-python = "^4.11.0.86"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
